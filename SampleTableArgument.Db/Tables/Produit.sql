@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Produit]
+(
+	[Id] BIGINT NOT NULL IDENTITY, 
+	[Nom] NVARCHAR(128) NOT NULL,
+    CONSTRAINT [PK_Produit] PRIMARY KEY ([Id]) 
+)
